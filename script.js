@@ -7,8 +7,8 @@ function myInput () {
   first = parseInt(first)
   second = document.getElementById('enter-two').value
   second = parseInt(second)
-  for (first = first; first > 0; first--) {
-  total = total + second
+  for (first; first > 0; first--) {
+    total = total + second
   }
   alert(total)
 }
